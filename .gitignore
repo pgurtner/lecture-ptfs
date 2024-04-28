@@ -1,0 +1,5 @@
+assignments/**
+
+!assignments/**/*.c
+!assignments/**/*.sh
+!assignments/**/Makefile
