@@ -1,4 +1,4 @@
-assignments/**
+assignments/*/**
 
 !assignments/**/*.c
 !assignments/**/*.sh
