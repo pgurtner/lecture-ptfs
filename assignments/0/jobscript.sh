@@ -10,4 +10,4 @@ unset SLURM_EXPORT_ENV
 module load intel
 make
 
-./benchmark
+srun --cpu-freq=2400000-2400000 ../utils/run.sh 10 ./benchmark.out

@@ -6,10 +6,10 @@ LOCAL_LIBS_IMPL = /home/hpc/ptfs/ptfs273h/lecture-ptfs/assignments/utils/timing.
 
 .PHONY: all clean
 
-all: benchmark
+all: benchmark.out
 
 clean:
-	rm benchmark
+	rm benchmark.out
 
-benchmark: benchmark.c
+benchmark.out: benchmark.c
 	$(CC) $(CFLAGS) $(LOCAL_LIBS_HEADER) $^ $(LOCAL_LIBS_IMPL) -o $@ $(LIBS)
